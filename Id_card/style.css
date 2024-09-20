@@ -89,29 +89,27 @@ body{
   text-decoration: none;
 }
 .id-card .button{
-  display: inline;
+  display: flex;
   align-items: center;
   margin-top: 25px;
-
-  
-  
+ 
 }
 .button .button{
-
-  width: 600px; /* Set both buttons to the same fixed width */
+    
+  width:3cm;
+  align-items: center;
+  justify-content: center;
   font-size: 14px;
   font-weight: 400;
   border: none;
   border-radius: 25px;
   color: #ffffff;
-  margin: 0 5px;
-  padding: 0 10px;
+  margin: 0 15px; 
+  padding: 8px 24px;
   background-color: #ffbd55;
   cursor: pointer;
   transition: all 0.3s ease;
-  text-align: center;
-  width: 100%
-  ;
+  
 }
 
 .button .button:hover{
